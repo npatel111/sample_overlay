@@ -30,7 +30,7 @@ body {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: absolute;
-  width: 400px;
+  width: 25em;
 }
 
 #column {
@@ -41,7 +41,7 @@ body {
 }
 
 img {
-  padding: 20px;
+  padding: 10px;
 }
 
 #x_button {
@@ -56,7 +56,7 @@ img {
 }
 
 #chanel {
-  max-width: 15em;
+  max-width: 10em;
 }
 
 #top_text {
