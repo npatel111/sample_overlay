@@ -6,12 +6,12 @@
 <body>
   <div id="container">
     <div id="overlay">
-      <img id="x_button" src="x.png"/>
+      <img id="x_button" src="images/x.png"/>
       <div id="column">
-        <img id="top_text" src="top_text.png" />
-        <img id="chanel" src="fragrance.png" />
-        <img id="lower_text" src="lower_text.png" />
-        <img id="addtobag" src="addtobag.png" />
+        <img id="top_text" src="images/top_text.png" />
+        <img id="chanel" src="images/fragrance.png" />
+        <img id="lower_text" src="images/lower_text.png" />
+        <img id="addtobag" src="images/addtobag.png" />
       </div>
     </div>
   </div>
@@ -23,5 +23,9 @@
     document.getElementById("x_button").onclick = function() {
       hideOverlay();
     };
+
+    document.getElementById('addtobag').click(function() {
+      window.location='https://www.chanel.com/us/fragrance/p/126260/chance-eau-tendre-eau-de-parfum-spray/';
+    });
   </script>
 </body>
